@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="springbootfirstappl"/>
+<aop-project name="AOPspring">
+<aspect-definition advice-class-name="com.acenture.aop.aspect.LoginAspect" advice-method-name="logingAdvice" advice-type="BEFORE" aspect-end-line-number="10" aspect-name="loginAspect" aspect-start-line-number="10" factory-id="org.springframework.ide.eclipse.aop.core.annotationAspectDefinitionElementFactory" file="/AOPspring/src/main/java/com/acenture/aop/aspect/LoginAspect.java" pointcut-expression="execution(* com.acenture.aop.service.TopicService.*())" proxy-target-class="true">
+<aop-reference advice-type="BEFORE" bean="1:BeansModel|2:AOPspring|3:java:com.acenture.aop.AopMain|8:topicService:10" bean-file="/AOPspring/src/main/java/com/acenture/aop/service/TopicService.java" bean-start-line="10" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/AOPspring/src/main/java/com/acenture/aop/AopMain.java" source="=AOPspring/src\/main\/java&lt;com.acenture.aop.aspect{LoginAspect.java[LoginAspect~logingAdvice" source-start-line="14" target="=AOPspring/src\/main\/java&lt;com.acenture.aop.service{TopicService.java[TopicService~getAllTopics" target-start-line="21"/>
+</aspect-definition>
+</aop-project>
+</aop-reference-model>
