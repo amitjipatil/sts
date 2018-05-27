@@ -1,8 +1,0 @@
-package com.acenture.app.util;
-
-import org.springframework.context.annotation.Configuration;
-
-@Configuration
-public class HibernateUtilConfig {
-
-}

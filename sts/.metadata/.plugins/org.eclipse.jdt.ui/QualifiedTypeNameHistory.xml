@@ -21,7 +21,6 @@
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
 <fullyQualifiedTypeName name="com.acenture.app.service.EmployeeService"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
-<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 <fullyQualifiedTypeName name="com.acenture.app.dao.EmployeeDao"/>
 <fullyQualifiedTypeName name="javax.persistence.Entity"/>
 <fullyQualifiedTypeName name="javax.persistence.Table"/>
@@ -31,7 +30,6 @@
 <fullyQualifiedTypeName name="javax.persistence.Column"/>
 <fullyQualifiedTypeName name="org.modelmapper.ModelMapper"/>
 <fullyQualifiedTypeName name="com.acenture.app.bean.EmployeeBean"/>
-<fullyQualifiedTypeName name="com.acenture.app.domain.Employee"/>
 <fullyQualifiedTypeName name="com.acenture.app.dto.EmployeeDtoConvertar"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="com.acenture.app.dto.EmployeeDTO"/>
@@ -41,4 +39,6 @@
 <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
 <fullyQualifiedTypeName name="org.omg.SendingContext.RunTime"/>
 <fullyQualifiedTypeName name="org.springframework.transaction.annotation.Transactional"/>
+<fullyQualifiedTypeName name="com.acenture.app.domain.Employee"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 </qualifiedTypeNameHistroy>

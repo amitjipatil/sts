@@ -36,9 +36,10 @@ public class EmployeeController {
 		return EmployeeDtoConvertar.convertEmpDtoToEmpBean(dtolist);
 	}
 	
-	@RequestMapping("/employees/{id}")
+	@RequestMapping("/employees/{empid}")
 	public EmployeeBean getEmployee(@PathVariable int empid)
 	{
+		System.out.println("get employee controller");
 		EmployeeDTO edto=employeeservice.getEmployee(empid);
 		return EmployeeDtoConvertar.convertEmpDtoToEmpBean(edto);
 	}
