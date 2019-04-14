@@ -29,9 +29,9 @@ public class EmployeeController {
 	
 	
 	@GetMapping("/employees")
-	public List<EmployeeBean> getAllTopics()
+	public List<EmployeeBean> getAllEmployees()
 	{
-		
+		// List 
 		List<EmployeeDTO> dtolist=employeeservice.getAllEmployees();
 		return EmployeeDtoConvertar.convertEmpDtoToEmpBean(dtolist);
 	}
@@ -45,7 +45,7 @@ public class EmployeeController {
 	}
 	
 	@RequestMapping(value="/employees",method=RequestMethod.POST)
-	public void addTopic(@RequestBody EmployeeBean employeebean)
+	public void addEmployee(@RequestBody EmployeeBean employeebean)
 	{
 		EmployeeDTO edto=EmployeeDtoConvertar.convertEmpBeanToEmpDto(employeebean);
 		employeeservice.addEmployee(edto);
