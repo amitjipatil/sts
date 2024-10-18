@@ -1,7 +1,0 @@
-package com.acenture.app.repositary;
-
-import org.springframework.data.jpa.repository.JpaRepository;
-
-public interface EmployeeRepositary extends JpaRepository<T, ID> {
-
-}
